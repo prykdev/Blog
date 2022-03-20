@@ -1,0 +1,167 @@
+/* .Register{
+    margin: 55px;
+    height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+    
+}
+
+.RegisterTitle {
+    font-size: 50px;
+  }
+  
+  .RegisterForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .RegisterForm > label {
+    margin: 10px 0;
+  }
+  
+  .RegisterInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .RegisterInput:focus {
+    outline: none;
+  }
+  
+  .RegisterButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .RegisterButton {
+   
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  } */
+
+
+  
+.Register {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  background-image: url('https://i.ibb.co/XZfQr6J/the-interior-has-a-armchair-on-empty-white-wall-background-3d-rendering-1.png');
+  width:auto;
+}
+
+.Register-card {
+  background: rgba(238, 200, 200, 0.75);
+  height: 35rem;
+  width: 33rem;
+  float: right;
+  border-radius: 1rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  z-index: 10;
+  
+}
+.Register-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1.2rem 0;
+}
+.Register-welcome {
+  font-size: 1.5rem;
+  padding: 20px;
+  
+}
+.Register-welcome strong {
+    
+  color: #173864;
+}
+span a {
+    padding: 20px;
+  color: #2f80ed;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Register-input {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: none;
+}
+.Register-input h1 {
+  padding: 2rem 4rem;
+  font-size: 3rem;
+}
+.Register-input .RegisterForm {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0 4rem;
+  align-content: center;
+}
+.Register-input input {
+  padding: 0 1.5rem;
+  background: #ffffff;
+  border: 1px solid #adadad;
+  box-sizing: border-box;
+  border-radius: 9px;
+  height: 3rem;
+}
+.Register-summit {
+  display: flex;
+  align-items: flex-end;
+  padding: 3rem;
+  float: right;
+  flex-direction: column;
+  
+}
+.Register-summit button {
+  margin-top: 0px;
+  height: 3rem;
+  background: teal;
+  box-shadow: 0 4px 19px teal;
+  border-style: none;
+  border-radius: 10px;
+  color: white;
+  width: 12rem;
+  cursor: pointer;
+  align-items: center;
+}
+.Register-summit a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0 1.2rem 0 0;
+}
+.inputField{
+    border: none;
+}
+.loginForm {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0 4rem;
+  align-content: center;
+}
